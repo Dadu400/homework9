@@ -22,7 +22,6 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
     background-color: var(--bg);
 }
 
@@ -159,7 +158,9 @@ button {
 }
 
 @media screen and (min-width: 900px) {
-
+    body {
+        height: 100vh;
+    }
     .container {
         width: 736px;
         display: flex;
